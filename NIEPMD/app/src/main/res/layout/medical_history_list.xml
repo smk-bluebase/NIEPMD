@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/patientNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/patientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/patientNameTitle"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/patientContactNoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patientNameTitle"
+        android:text="Patient Contact No : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/patientContactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/patientContactNoTitle"
+        android:layout_below="@id/patientName"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/patientGenderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patientContactNoTitle"
+        android:text="Patient Gender : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/patientGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/patientContactNoTitle"
+        android:layout_below="@id/patientContactNo"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/creationDateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patientGenderTitle"
+        android:text="Creation Date : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/creationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/creationDateTitle"
+        android:layout_below="@id/patientGender"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/updationDateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/creationDateTitle"
+        android:text="Updation Date : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/updationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/updationDateTitle"
+        android:layout_below="@id/creationDate"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+</RelativeLayout>

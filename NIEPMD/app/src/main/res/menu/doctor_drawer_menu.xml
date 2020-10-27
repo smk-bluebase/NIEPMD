@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_my_profile"
+            android:icon="@drawable/my_profile"
+            android:title="My Profile"/>
+
+        <item android:id="@+id/nav_appointment_history"
+            android:icon="@drawable/appointment_history"
+            android:title="Appointment History"/>
+
+        <item android:id="@+id/nav_patient"
+            android:icon="@drawable/patients_button"
+            android:title="Patient"/>
+
+        <item android:id="@+id/nav_search"
+            android:icon="@drawable/search_button"
+            android:title="Search"/>
+
+        <item android:id="@+id/nav_physiotherapy_form"
+            android:icon="@drawable/physiotherapy_button"
+            android:title="Physiotherapy Form"/>
+
+    </group>
+
+</menu>

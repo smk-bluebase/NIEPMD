@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/bloodPressureTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Pressure : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/bloodPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/bloodPressureTitle"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/weightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloodPressureTitle"
+        android:text="Weight : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/weightTitle"
+        android:layout_below="@id/bloodPressure"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/bloodSugarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightTitle"
+        android:text="Blood Sugar : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/bloodSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/bloodSugarTitle"
+        android:layout_below="@id/weight"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/bodyTemperatureTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloodSugarTitle"
+        android:text="Body Temperature : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/bodyTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/bodyTemperatureTitle"
+        android:layout_below="@id/bloodSugar"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/visitDateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bodyTemperatureTitle"
+        android:text="Visit Date : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/visitDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/visitDateTitle"
+        android:layout_below="@id/bodyTemperature"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/medicalPrescriptionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/visitDateTitle"
+        android:text="Medical Prescription : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/medicalPrescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/medicalPrescriptionTitle"
+        android:layout_below="@id/visitDate"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/doctorNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/doctorNameTitle"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/specializationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctorNameTitle"
+        android:text="Specialization : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/specialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/specializationTitle"
+        android:layout_below="@id/doctorName"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/consultancyFeesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/specializationTitle"
+        android:text="Consultancy Fees : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/consultancyFees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/consultancyFeesTitle"
+        android:layout_below="@id/specialization"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/appointmentTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/consultancyFeesTitle"
+        android:text="Appointment Time : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/appointmentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/appointmentTimeTitle"
+        android:layout_below="@id/consultancyFees"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/bookingTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appointmentTimeTitle"
+        android:text="Booking Time : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/bookingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/bookingTimeTitle"
+        android:layout_below="@id/appointmentTime"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/currentStatusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookingTimeTitle"
+        android:text="Current Status : "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/currentStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----------------------"
+        android:layout_toRightOf="@id/currentStatusTitle"
+        android:layout_below="@id/bookingTime"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp" />
+
+</RelativeLayout>

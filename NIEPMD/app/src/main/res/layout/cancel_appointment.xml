@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_container"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/cancelAppointmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Cancel Appointment"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/c1"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancelAppointmentTitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
+        android:text="Do you want cancel appointment?"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+        android:background="@color/c4"
+        android:layout_toLeftOf="@id/cancel"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+        android:background="@color/c4"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:text="cancel" />
+
+</RelativeLayout>

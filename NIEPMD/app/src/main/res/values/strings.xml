@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NIEPMD</string>
+    <string-array name="doctororpatient">
+        <item>Doctor</item>
+        <item>Patient</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="posture">
+        <item>Lying</item>
+        <item>Sitting</item>
+        <item>Standing</item>
+    </string-array>
+
+    <string-array name="muscleOne">
+        <item>Normal</item>
+        <item>Htpertonic</item>
+        <item>Hypotonic</item>
+    </string-array>
+
+    <string-array name="nutrionalStatusOfMuscles">
+        <item>Muscle Wasting</item>
+        <item>Atropic of Muscle</item>
+    </string-array>
+
+    <string-array name="contractureAndDeformity">
+        <item>Fixed</item>
+        <item>Strechabale</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
